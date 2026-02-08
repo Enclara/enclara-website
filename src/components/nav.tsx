@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/app/icon.png";
 
 const links = [
   { href: "/", label: "Home" },
@@ -17,7 +19,7 @@ export function Nav() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-navy-950/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
-          <Diamond className="h-7 w-7" />
+          <Image src={logo} alt="Enclara logo" width={28} height={28} className="rounded-md" />
           <span className="text-lg font-semibold tracking-tight">Enclara</span>
         </Link>
 

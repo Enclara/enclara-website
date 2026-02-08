@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: "Enclara — Privacy-Preserving Medical AI",
   description:
     "Skin cancer classification that never sees your data. Fully Homomorphic Encryption keeps patient images encrypted end-to-end, even during AI inference.",
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

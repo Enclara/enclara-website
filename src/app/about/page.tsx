@@ -115,9 +115,9 @@ function Team() {
   return (
     <Section>
       <SectionLabel>Team</SectionLabel>
-      <SectionTitle>Built by researchers, not just engineers</SectionTitle>
+      <SectionTitle>Built by founders who ship, not just theorise</SectionTitle>
       <SectionDescription>
-        Enclara isn&apos;t a wrapper around an open-source library. Edward&apos;s
+        Most teams in this space publish papers. We build products. Edward&apos;s
         selection for{" "}
         <Link
           href="https://0xparc.org"
@@ -127,12 +127,12 @@ function Team() {
         >
           0xPARC
         </Link>
-        &nbsp;&mdash; the research program behind foundational advances in
-        programmable cryptography including FHE, ZK, and MPC &mdash; means we
-        operate at the level of the cryptographic primitives themselves. Combined
-        with hardware-level engineering and systems research at Cambridge, this
-        team has the rare intersection of applied cryptography depth and
-        full-stack execution speed needed to ship production FHE.
+        &nbsp;&mdash; the premier applied cryptography program at the frontier of
+        FHE, ZK, and MPC &mdash; gives us mastery of the cryptographic
+        primitives. But what sets us apart is the engineering firepower to take
+        that knowledge from concept to production. Hardware-level design,
+        full-stack systems, and relentless shipping speed &mdash; this is the
+        team turning privacy-preserving AI from a dream into deployed reality.
       </SectionDescription>
 
       <div className="mt-10 grid gap-6 md:grid-cols-2">
